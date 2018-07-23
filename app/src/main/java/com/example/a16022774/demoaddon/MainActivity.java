@@ -23,5 +23,7 @@ public class MainActivity extends AppCompatActivity {
         String imageUrl = "http://square.github.io/picasso/static/sample.png";
         Picasso.with(this).load(imageUrl).into(iv);
 
+        Picasso.with(this).load(imageUrl).into(zv);
+
     }
 }
